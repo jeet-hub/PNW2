@@ -63,7 +63,7 @@ Version: 1.0.0
   --gt-theme: #0eb85d;
   --gt-theme-2: #7A73D1;
   --gt-theme-3: #9900FF;
-  --gt-theme-4: #FFFF00;
+  --gt-theme-4: #09a716;
   --gt-header: #112c1a;
   --gt-text: #112c1c;
   --gt-text-2: #04601c;
@@ -71,6 +71,15 @@ Version: 1.0.0
   --gt-bg: #FCFCFC;
   --gt-bg-2: #F2F2F2;
   --gt-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.13);
+}
+
+section {
+    display: grid;
+    place-items: center;
+    margin: 0px 0px !important;
+}
+.section-padding {
+    padding: 60px 0px !important;
 }
 
 .gt-theme-btn {
@@ -9225,6 +9234,12 @@ span {
   border-bottom: 1px solid var(--gt-white);
   margin-bottom: 30px;
   padding-bottom: 25px;
+  font-size: 18px;
+}
+.gt-service-wrapper .gt-service-item.gt-style-2 .accordion-item .accordion-header .accordion-button {
+    background-color: transparent;
+    color: var(--gt-white);
+    font-size: 18px;
 }
 .gt-service-wrapper .gt-service-item.gt-style-2 .accordion-item .accordion-collapse {
   transition: height 0.3s ease !important;
@@ -9392,7 +9407,7 @@ span {
   position: absolute;
   left: 0;
   right: 0;
-  top: -13%;
+  top: 0%;
 }
 .gt-service-section-3 .gt-top-shape img {
   width: 100%;
@@ -10201,7 +10216,7 @@ span {
 }
 
 .gt-speaker-wrapper-3 {
-  background-color: green;
+  background-color: rgb(110, 110, 110);
   border-radius: 40px;
   padding: 70px;
   position: relative;
