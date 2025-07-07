@@ -320,7 +320,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 ul {
@@ -355,7 +355,7 @@ h6 {
   padding: 0;
   color: var(--gt-header);
   transition: all 0.4s ease-in-out;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 h1 {
@@ -8920,7 +8920,7 @@ span {
 .gt-section-title-2 .gt-sub-title {
   font-size: 16px;
   font-weight: 700;
-  color: #7A73D1;
+  color: #15c04e;
   font-family: "Sora", sans-serif;
   margin-bottom: 25px;
   text-transform: capitalize;
